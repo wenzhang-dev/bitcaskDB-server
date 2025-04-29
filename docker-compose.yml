@@ -1,0 +1,16 @@
+version: "2"
+
+services:
+  bitcask-server:
+    image: bitcask-server:latest
+    container_name: bitcask-server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8090:8090"
+    volumes:
+      - ./bitcaskDB:/app/bitcaskDB
+    command:
+      - "-port=8090"
+      - "-dir=/app/bitcaskDB"
