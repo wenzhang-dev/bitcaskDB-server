@@ -16,3 +16,4 @@ dist_clean: clean
 	docker stop bitcask-server
 	docker rm bitcask-server
 	rm -rf ./bitcaskDB
+	rm -rf ./tests/*.json

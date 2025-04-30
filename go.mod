@@ -4,7 +4,7 @@ go 1.23.0
 
 require (
 	github.com/gorilla/mux v1.8.1
-	github.com/wenzhang-dev/bitcaskDB v0.0.0-20250429054534-36bd142333ad
+	github.com/wenzhang-dev/bitcaskDB v0.0.0-20250430043447-644b7fd030bc
 )
 
 require (
